@@ -141,7 +141,7 @@ body {
 
 .wrap li {
     //參數一可設定一列幾欄
-    //參數二可設定grid間距
+    //參數二可設定grid間距(只能用%為單位)
     @include grid(5, 4%);
 
     img {
